@@ -1,0 +1,52 @@
+🎤 VOICE CLONING APP - CÁCH CHẠY NHANH TRÊN WINDOWS
+==================================================
+
+📋 BƯỚC 1: CÀI ĐẶT NODE.JS (NẾU CHƯA CÓ)
+-----------------------------------------
+1. Truy cập: https://nodejs.org/
+2. Tải phiên bản LTS (màu xanh lá)
+3. Chạy file .msi và cài đặt
+4. Khởi động lại máy tính
+
+📋 BƯỚC 2: CHẠY ỨNG DỤNG
+-------------------------
+🔥 CÁCH ĐỠN GIẢN NHẤT:
+   Double-click vào file: start-windows.bat
+   
+🔧 CÁCH THỦ CÔNG:
+   1. Mở Command Prompt trong thư mục này
+   2. Gõ: npm install
+   3. Gõ: npm run dev
+
+📋 BƯỚC 3: MỞ TRÌNH DUYỆT
+--------------------------
+Sau khi thấy thông báo "Ready", mở trình duyệt và truy cập:
+   http://localhost:3000
+   hoặc
+   http://localhost:3001
+
+🎯 CÁCH SỬ DỤNG:
+================
+1. Upload file âm thanh mẫu (MP3, WAV, OGG)
+2. Nhập văn bản (mỗi dòng = 1 file MP3)
+3. Click "Tạo giọng nói nhân bản"
+4. Nghe và tải xuống các file MP3
+
+💡 GHI CHÚ:
+===========
+- Không cần API key vẫn chạy được (dùng Web Speech API)
+- Có API key ElevenLabs sẽ chất lượng cao hơn
+- Nếu gặp lỗi, thử chạy Command Prompt với quyền Administrator
+
+🆘 NẾU GẶP VẤN ĐỀ:
+==================
+- File start-windows.bat chạy rồi tắt ngay: Cài đặt Node.js trước
+- Port đã được sử dụng: Ứng dụng sẽ tự chuyển sang port khác
+- Lỗi permission: Chạy với quyền Administrator
+- Không tải được: Kiểm tra kết nối internet
+
+📞 HỖ TRỢ:
+===========
+Xem file HUONG_DAN_CHAY_TREN_WINDOWS.md để có hướng dẫn chi tiết hơn.
+
+CHÚC BẠN SỬ DỤNG THÀNH CÔNG! 🎤✨
